@@ -61,11 +61,13 @@ const Navigation = () => {
                         </a>
                     </li>
                 </ul>
+                <div className="signature">
+                    <p>copyright Derwych - 2021</p>
+                </div>
             </div>
-            <div className="signature">
-                <p>copyright Derwych - 2021</p>
-            </div>
+
         </div>
+
     );
 };
 
