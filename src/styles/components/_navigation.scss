@@ -152,7 +152,7 @@
 @media screen and (max-width: 580px) {
   .sidebar {
     ul {
-      justify-content: space-around;
+      justify-content: space-around !important;
 
       li {
         padding: 1rem 0 !important;
