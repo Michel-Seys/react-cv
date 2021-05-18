@@ -17,11 +17,11 @@ $shadow: 0 1px 3px #333;
 $minHeight: 95vh;
 
 @mixin verticalCenter {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -44,20 +44,19 @@ a {
   cursor: pointer;
 }
 a:visited {
-  color: $black;
+  color:$black;
 }
-.home, .knoledges, .portfolio, .contact {
+.home, .knowledges, .portfolio, .contact {
   display: flex;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 850px){
     display: block !important;
   }
 }
-
-.homeContent,  .knoledgesContent, .portfolioContent, .contactContent {
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
   margin-left: .4rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 850px){
     margin-left: 0 !important;
   }
 }

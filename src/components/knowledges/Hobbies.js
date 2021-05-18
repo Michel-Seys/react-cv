@@ -2,7 +2,6 @@ import React from 'react';
 
 const Hobbies = () => {
     return (
-        <div>
             <div className="hobbies">
                 <h3>Intérêts</h3>
                 <ul>
@@ -28,7 +27,6 @@ const Hobbies = () => {
                     </li>
                 </ul>
             </div>
-        </div>
     );
 };
 

@@ -2,7 +2,6 @@ import React from 'react';
 
 const OtherSkills = () => {
     return (
-        <div>
             <div className="otherSkills">
                 <h3>Autres compétence</h3>
                 <div className="list">
@@ -20,7 +19,6 @@ const OtherSkills = () => {
                     </ul>
                 </div>
             </div>
-        </div>
     );
 };
 
